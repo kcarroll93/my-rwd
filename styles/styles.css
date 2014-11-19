@@ -1,0 +1,37 @@
+/**
+*=============================================================
+*styles.css--Global style for MyRWD website
+*=============================================================
+*
+*Created November 12th, 2014
+*
+*Authored by Kevin Carroll
+*
+*/
+
+/* -----Basic styling----- */
+
+
+body{
+  background-color: lightblue;
+}
+
+#page-wrapper{
+background-color: white;
+  width: 768px;
+  position: absolute;
+  top: 100%;
+        left: 50%;
+         margin-right: -50%;
+        transform: translate(-50%, -50%) 
+}
+
+#content{
+  background-color: #f7f2da ;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 10px;
+}
+#nav{
+  background-color: gray;
+}
